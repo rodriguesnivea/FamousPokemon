@@ -68,7 +68,7 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
      "weight": 120,
      "type": "psychic",
      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg",
-     "famous-position": 110,
+     "famous_position": 110,
      "searchs" 10
     }
     ```
@@ -89,7 +89,7 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
            "weight": 120,
            "type": "psychic",
            "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg",
-           "famous-position": 1,
+           "famous_position": 1,
            "searchs" 10
         },
         {
@@ -98,7 +98,7 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
            "weight": 120,
            "type": "psychic",
            "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg",
-           "famous-position": 2,
+           "famous_position": 2,
            "searchs" 9
         },
         ...
