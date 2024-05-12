@@ -12,7 +12,7 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
      ```
 
 2. **Endpoint para Retornar os 10 Pokémons Mais Famosos:**
-   - Implemente um endpoint `/api/pokemon/famous` que retorne os 10 Pokémons mais famosos com base no número de vezes que foram pesquisados pelo nome.
+   - Implemente um endpoint `/api/pokemon/famous` que retorne os X Pokémons mais famosos com base no número de vezes que foram pesquisados pelo nome.
 
 ## Requisitos Não Funcionais:
 
@@ -31,7 +31,7 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
    - Cada vez que um Pokémon é buscado pelo nome, registre essa busca no banco de dados, incrementando o contador de vezes que ele foi pesquisado.
 
 2. **Cálculo dos Pokémons Mais Famosos:**
-   - Para determinar os Pokémons mais famosos, consulte o banco de dados e retorne os 10 Pokémons com o maior número de pesquisas pelo nome.
+   - Para determinar os Pokémons mais famosos, consulte o banco de dados e retorne os X Pokémons com o maior número de pesquisas pelo nome.
 
 ## Detalhes da Implementação:
 
