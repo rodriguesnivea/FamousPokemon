@@ -63,11 +63,13 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
   - Exemplo de Resposta:
     ```json
     {
-        "id": 25,
-        "nome": "Pikachu",
-        "tipo": ["Elétrico"],
-        "altura": 0.4,
-        "peso": 6.0
+     "name": "Pikachu",
+     "height": 3,
+     "weight": 120,
+     "type": "psychic",
+     "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg",
+     "famous-position": 110,
+     "searchs" 10
     }
     ```
 
@@ -75,15 +77,31 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
   - Exemplo de Requisição:
     
     ```bash
-    GET /api/pokemon/famous
+    GET /api/pokemon/famous?top=10
     ```
   
   - Exemplo de Resposta:
     ```json
     [
-        {"id": 25, "nome": "Pikachu", "tipo": ["Elétrico"], "altura": 0.4, "peso": 6.0},
-        {"id": 6, "nome": "Charizard", "tipo": ["Fogo", "Voador"], "altura": 1.7, "peso": 90.5},
-        // Outros Pokémon famosos aqui...
+        {
+           "name": "Pikachu",
+           "height": 3,
+           "weight": 120,
+           "type": "psychic",
+           "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg",
+           "famous-position": 1,
+           "searchs" 10
+        },
+        {
+           "name": "Pikachu",
+           "height": 3,
+           "weight": 120,
+           "type": "psychic",
+           "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg",
+           "famous-position": 2,
+           "searchs" 9
+        },
+        ...
     ]
     ```
 
