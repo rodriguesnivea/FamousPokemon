@@ -7,7 +7,7 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
 1. **Endpoint para Buscar um Pokémon pelo Nome:**
    - Crie um endpoint `/api/pokemon/{nome}` que permita aos usuários buscar um Pokémon pelo seu nome.
    - Acesse a PokeAPI [https://pokeapi.co/] para consultar o Pokémon pelo nome e receba o seguinte JSON: 
-```json
+     ```json
       {"name":"Pikachu","height":3,"weight":120,"types":[{"type":{"name":"psychic"}}],"sprites":{"other":{"dream_world":{"front_default":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg"}}}}
      ```
 
