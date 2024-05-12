@@ -30,9 +30,52 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Seu objetivo é cri
 2. *Cálculo dos Pokémons Mais Famosos:*
    - Para determinar os Pokémons mais famosos, consulte o banco de dados e retorne os 10 Pokémons com o maior número de pesquisas pelo nome.
 
+### Detalhes da Implementação:
+
+1. *Instalação:*
+   - Clone o repositório do projeto:
+     
+     git clone https://github.com/seu-usuario/seu-repositorio.git
+     
+   - Navegue até o diretório do projeto e execute o Docker Compose para configurar o banco de dados e o Redis:
+     
+     docker-compose up -d
+     
+   - Abra o projeto em sua IDE de preferência (por exemplo, Visual Studio) e execute a aplicação.
+
+2. *Uso:*
+   - Para buscar um Pokémon pelo nome, faça uma requisição GET para o endpoint /api/pokemon/{nome}.
+   - Exemplo de Requisição:
+     
+     GET /api/pokemon/pikachu
+     
+   - Exemplo de Resposta:
+     json
+     {
+         "id": 25,
+         "nome": "Pikachu",
+         "tipo": ["Elétrico"],
+         "altura": 0.4,
+         "peso": 6.0
+     }
+     
+
+   - Para obter os 10 Pokémon mais famosos, faça uma requisição GET para o endpoint /api/pokemon/famous.
+   - Exemplo de Requisição:
+     
+     GET /api/pokemon/famous
+     
+   - Exemplo de Resposta:
+     json
+     [
+         {"id": 25, "nome": "Pikachu", "tipo": ["Elétrico"], "altura": 0.4, "peso": 6.0},
+         {"id": 6, "nome": "Charizard", "tipo": ["Fogo", "Voador"], "altura": 1.7, "peso": 90.5},
+         // Outros Pokémon famosos aqui...
+     ]
+     
+
 ### Observações:
 
-- Você é livre para escolher a tecnologia e o framework que deseja usar para desenvolver a API (por exemplo, ASP.NET Core, Node.js, Django, etc.).
 - Certifique-se de fornecer uma documentação clara sobre como configurar e executar o projeto, incluindo instruções para configurar o Docker Compose e iniciar o Redis e o banco de dados.
 - Seja criativo e pense em soluções eficientes para atender aos requisitos do desafio.
 
