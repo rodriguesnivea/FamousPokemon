@@ -40,7 +40,7 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
 1. Clone o repositório do projeto:
    
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/rodriguesnivea/FamousPokemon.git
    ```
 
 2. Navegue até o diretório do projeto e execute o Docker Compose para configurar o banco de dados e o Redis:
