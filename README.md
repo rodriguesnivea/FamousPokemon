@@ -53,7 +53,7 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
 
 ### Uso:
 
-- Para buscar um Pokémon pelo nome, faça uma requisição GET para o endpoint `/api/pokemon/{nome}`.
+- Para buscar um Pokémon pelo nome, faça uma requisição POST para o endpoint `/api/pokemon/{nome}`.
   - Exemplo de Requisição:
     
     ```bash
