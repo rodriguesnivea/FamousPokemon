@@ -57,7 +57,7 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
   - Exemplo de Requisição:
     
     ```bash
-    GET /api/pokemon/pikachu
+    POST /api/pokemon/pikachu
     ```
   
   - Exemplo de Resposta:
