@@ -1,4 +1,4 @@
-![Snorlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/143.svg)
+![Pikachu](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png)
 
 # Desafio de Desenvolvimento de API de Pokémons
 
@@ -116,3 +116,5 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
 - Seja criativo e pense em soluções eficientes para atender aos requisitos do desafio.
 
 *Boa sorte e divirta-se codificando!*  
+
+![Snorlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/143.svg)
