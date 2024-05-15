@@ -72,7 +72,8 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Seu objetivo é cri
          {"id": 6, "nome": "Charizard", "tipo": ["Fogo", "Voador"], "altura": 1.7, "peso": 90.5},
          // Outros Pokémon famosos aqui...
      ]
-     
+3. *Rodar testes unitários com cobertura:*   
+   dotnet test --collect "XPlat Code Coverage"
 
 ### Observações:
 
