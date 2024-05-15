@@ -1,3 +1,5 @@
+![Snorlax](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/143.svg)
+
 # Desafio de Desenvolvimento de API de Pokémons
 
 Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem como objetivo criar uma API RESTful que forneça informações sobre Pokémons e atenda aos seguintes requisitos:
