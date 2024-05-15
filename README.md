@@ -19,10 +19,7 @@ Bem-vindo ao Desafio de Desenvolvimento de API de Pokémons! Este desafio tem co
 1. **Cobertura de Testes Unitários:**
    - Garanta que sua aplicação tenha uma cobertura de testes unitários de pelo menos 80%.
 
-2. **Utilização do Redis:**
-   - Utilize o Redis para armazenar informações sobre os Pokémons pesquisados e o número de vezes que foram buscados.
-
-3. **Utilização de Docker Compose para o Banco de Dados:**
+2. **Utilização de Docker Compose para o Banco de Dados:**
    - Utilize o Docker Compose para configurar e executar o banco de dados usado pela aplicação.
 
 ## Regras de Negócio Adicionais:
